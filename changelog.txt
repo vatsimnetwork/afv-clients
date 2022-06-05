@@ -1,0 +1,64 @@
+Standalone V1.10.0
+=================
+-Update slurper url
+-Update client version url
+
+Standalone V1.9.7
+=================
+-Reverted relief callsign change as this 
+ caused issues with controller handover.  
+ To be investigated further after CTP.
+
+Standalone V1.9.6
+=================
+-Fix Clients hangs when disconnecting
+
+-Fix Client hangs with poor connectivity
+
+-Handle callsigns with double underscores as single
+ for relief callsings (See VATSIM-UK Ops Department)
+
+Standalone V1.9.5
+=================
+-Fix Input/Output Volume Sliders - In V1.9.4 these
+ made no difference to
+ the users input or output volume resulting in
+ very quiet ATC in some instances.
+
+-Resolved issues when controllers had zero 
+ TX buttons selected but still transmitting
+
+-Fixed minor UI issue where callsign label 
+ would disappear.
+
+Standalone V1.9.4
+=================
+The AFV Dev team have been hard at work adding 
+some bug fixes and improvements to the AFV 
+Standalone.
+
+This updated contains the following changes.
+
+-Added Speaker Option to change sound device 
+ to speaker without disconnecting
+
+-Bug fix for silent audio drop outs
+
+-HF Audio Improvements
+
+-VHF Audio Improvements
+
+-Transceiver updating bug fixes
+
+-Performance Improvements
+
+-UI Improvements
+
+-Fix issues with disconnected or missing
+ audio devices
+
+-Error handling in upgrade process
+
+-Fixed issues when connecting with no 
+Transmitting transceivers
+
